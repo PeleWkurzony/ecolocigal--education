@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./css/sadzmyDrzewa.css">
+    <link rel="icon" href="./pics/planet.jpg">
+    <title>Ekologic education</title>
+</head>
+<body>
+    <div class="container">
+        <div class="menuDiv">
+
+            <a href="index.html"><img src="pics/eco--logical.pl.png" alt="ecologicallogo" class="ecoLogo"></a>
+
+            <div class="menu-area">
+                <ul>
+                    <a href="index.html" class="menuA"><li>GŁÓWNA</li></a>
+                    <li>GRY EDU
+                        <ul class="dropdown">
+                            <a href="./app/index.html"><li>SLINGSHOT</li></a>
+                            <a href="./eco/index.html"><li>RECYKLING</li></a>
+                        </ul>
+                    </li>
+                        <a href="edukacja.html"><li>EDUKACJA
+                        <ul class="dropdown">
+                            <a href="jakEco.html"><li>JAK BYĆ ECO</li></a>
+                            <a href="ekosystem.html"><li>EKOSYSTEM</li></a>
+                            <a href="fosforany.html"><li>FOSFORANY</li></a>
+                            <a href="samochody.html"><li>SAMOCHODY</li></a>
+                            <a href="f-gazy.html"><li>F-GAZY</li></a>
+                        </ul>
+                    </li></a>
+                    <li>CELE
+                        <ul class="dropdown">
+                            <a href="drzewa.html"><li>DRZEWA</li></a>
+                            <a href="sadzmyDrzewa.html"><li>ZASADŹ DRZEWO</li></a>
+                        </ul>
+                    </li>
+                    <a href="" class="menuA"><li>KONTAKT</li></a>
+                </ul>
+            </div>
+        </div>
+
+        <div class="stats">
+            <div class="firstStat">
+                <div><img src="pics/m2Icon.svg" alt="m2"></div>
+                <div class="powM2"><span class="powM22">0</span>m<sup>2</sup></div>
+                <div class="statText">Powierzchnia lasu</div>
+            </div>
+
+            <div class="secondStat">
+                <div><img src="pics/co2Icon.svg" alt="co2"></div>
+                <div class="powCO2">0</div>
+                <div class="statText">Pochłanianie CO2/rok</div>
+            </div>
+
+            <div class="thirdStat">
+                <div><img src="pics/forestIcon.svg" alt="co2"></div>
+                <div class="powTrees">0</div>
+                <div class="statText">Liczba drzew</div>
+            </div>
+
+            <div class="fourthStat">
+                <div><img src="pics/oxyIcon.svg" alt="co2"></div>
+                <div class="powOx">0</div>
+                <div class="statOx">Tlen dla osób rocznie</div>
+            </div>
+
+            <div class="fifthStat">
+                <div><img src="pics/paperIcon.svg" alt="co2"></div>
+                <div class="powPaper"><span class="powPaper2">0</span>kg</div>
+                <div class="statText">Ilość zwróconego papieru</div>
+            </div>
+        </div>
+
+        <div class="mainText">
+
+            <h1>Ile drzew chcesz posadzić?</h1>
+            <h2>1 x <img src="pics/drzewko.png" alt="drzewko" class="drzewkoImg"> = 9.99zł</h2>
+
+            <input id="choose1" type="radio" name="trees" checked/>
+            <label for="choose1" class="labelRadio"><h2>1x<img src="pics/drzewko.png" alt="drzewko" class="drzewkoImg"></h2></label>
+            <input id="choose2" type="radio" name="trees" />
+            <label for="choose2" class="labelRadio"><h2>5x<img src="pics/drzewko.png" alt="drzewko" class="drzewkoImg"></h2></label>
+            <input id="choose3" type="radio" name="trees" />
+            <label for="choose3" class="labelRadio"><h2>10x<img src="pics/drzewko.png" alt="drzewko" class="drzewkoImg"></h2></label>
+            <input id="choose4" type="radio" name="trees" />
+            <label for="choose4" class="labelRadio"><h2>20x<img src="pics/drzewko.png" alt="drzewko" class="drzewkoImg"></h2></label>
+
+            <input type="number" class="treeNumber" placeholder="inna liczba drzew">
+
+            <div class="statsButton"><p>STATYSTYKI</p></div>
+            <div class="buyButton"><p>ZAPŁAĆ</p></div>
+
+        </div>
+        
+        <footer><p>COPYRIGHT</p></footer>
+    </div>
+    <script src="./src/sadzmyDrzewa.js"></script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+.mainText {
+    width: 950px;
+    height: 3800px;
+    margin-left: 465px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background: rgba(0,0,0,0.8)
+}
+
+.ekosystemImg {
+    width: 800px;
+    margin-left: 75px;
+    margin-top: 15px;
+}
+
+.ulEKO {
+    list-style: none;
+    color: white;
+  }
+  
+  .ulEKO li::before {
+    content: "\2022";
+    color: darkgreen;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+  }

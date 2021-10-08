@@ -1,0 +1,46 @@
+.mainText {
+    width: 950px;
+    height: 2600px;
+    margin-left: 465px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background: rgba(0,0,0,0.8)
+}
+
+.drzewaImg {
+    width: 800px;
+    margin-left: 75px;
+    margin-top: 15px;
+}
+
+.ulEKO {
+    list-style: none;
+    color: white;
+  }
+  
+  .ulEKO li::before {
+    content: "\2022";
+    color: darkgreen;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+  }
+
+.drzewaText {
+    color: green;
+    margin-top: 150px;
+    text-align: center;
+}
+
+.sadzButton {
+    background-color: green;
+    width: auto;
+    margin-top: 80px;
+    text-align: center;
+    padding: 1px;
+}
+
+.sadzButton:hover {
+    background: #1fbd66;
+}

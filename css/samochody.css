@@ -1,0 +1,14 @@
+.mainText {
+    width: 950px;
+    height: 1500px;
+    margin-left: 465px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background: rgba(0,0,0,0.8)
+}
+
+.samochodyImg {
+    width: 700px;
+    margin-left: 130px;
+    margin-top: 15px;
+}
